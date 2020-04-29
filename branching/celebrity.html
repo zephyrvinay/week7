@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/celebrity-styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/celebrity-script.js"></script>
+  <title>celebrity</title>
+</head>
+<body>
+  <div class="container">
+    <h1> Celebrity Quiz </h1>
+    <p> choose your answers to be paired with a celebrity that we think will be best for you </p>
+      <form id="celebrity">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Find my match</button>
+      
+
+      <div id="result">
+        <p>You have been paired <span id="match"></span> You should probably just bike or take the bus.</p>
+      </div>
+
+
+  </div>
+</body>
+</html>
