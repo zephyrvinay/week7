@@ -14,8 +14,11 @@
     <h1> Celebrity Quiz </h1>
     <p> choose your answers to be paired with a celebrity that we think will be best for you </p>
       <form id="celebrity">
-        <label for="age">Age</label>
-        <input id="age" type="text">
+        <div class="form-group has-error"> 
+          <label class="control-label" id="inputSuccess1" for="age">Age</label> 
+          <input class="form-control" id="age" type="text">
+        </div>
+        
         <label for="gender">Gender</label>
         <select id="gender">
           <option value="female">Female</option>

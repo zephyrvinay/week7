@@ -14,7 +14,7 @@ $(document).ready(function(){
       $("#result").show();
     }
     event.preventDefault();
-
+    //adding a comment to test rebase
 
   });
 });
