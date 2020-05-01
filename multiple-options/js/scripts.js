@@ -5,8 +5,8 @@ $(document).ready(function() {
     var number2 = parseInt($("#input2").val());
     var operator = $("input:radio[name=operator]:checked").val();
     var result;
-    console.log("1st number: " + number1);  // for debugging
-    console.log("2nd number: " + number2);  // for debugging
+    console.log("The number I am entering is : " + number1);  // for debugging
+    console.log("The 2nd number is  " + number2);  // for debugging
     console.log("operator: " + operator);  // for debugging
     if (operator === "add") {
       result = add(number1, number2);
